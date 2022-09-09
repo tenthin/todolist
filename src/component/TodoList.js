@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import "./TodoList.scss";
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 // import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -29,37 +29,39 @@ function TodoList() {
 
   return (
     <div className="todolist">
-        To do List
+        <h1 className="todolist-title">ToDo List</h1>
         <div className="todolist-main">
-          <input type="text" className="" placeholder="Your Task"
+          <input  className="todolist-input" type="text" placeholder="Your Task"
             value={inputData}
-            onChange={(e) => setInputData(e.target.value)}
+            onChange={(e) => setInputData(e.target.value)
+            }
           />
-            <Button>
-            <AddIcon onClick={addItem}/>
-            </Button>
-            <div className="showItems">
-              {
-                items.map((elem,ind) => {
-                  return (
-                    <div className="singleItems" key={ind}>
-                      <h3>{elem}</h3>
-                      {/* <EditIcon/>Edit */}
-                      <Button onClick={() => deleteItem(ind)}>
-                        <DeleteIcon/>
-                      </Button> 
-                      {/* <DeleteIcon onClick={() => deleteItem(ind)}/> */}
-              </div>  
-                  )
-                })
-              }
-            </div>
+            <button className="todolist-addbutton" onClick={addItem}>
+            <AddIcon className="todolist-addicon"/>
+            </button>
             {/* <Button>
               <EditIcon/>Edit
             </Button>   
             <Button>
               <DeleteIcon/>Delete
             </Button>  */}
+        </div>
+
+        <div className="showItems">
+              {
+                items.map((elem,ind) => {
+                  return (
+                    <div className="singleItems" key={ind}>
+                      <h3 className="todolist-list">{elem}</h3>
+                      {/* <EditIcon/>Edit */}
+                      <button className="todolist-deletebutton"onClick={() => deleteItem(ind)}>
+                        <DeleteIcon className="todolist-deleteicon"/>
+                      </button> 
+                      {/* <DeleteIcon onClick={() => deleteItem(ind)}/> */}
+                    </div>  
+                  )
+                })
+              }
         </div>
     </div>
   )

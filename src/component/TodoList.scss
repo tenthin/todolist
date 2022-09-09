@@ -2,10 +2,122 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #9da4e0;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.todolist-title {
+    color: #9da4e0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 9px;
+    padding-top: 0px;
+    width: 100%;
+    // height: 30px;
 }
 
 .todolist-main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    // align-items: center;
+    // text-align: center;
+}
+
+.todolist-input {
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.todolist-addbutton {
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+    // text-align: center;
+    // align-items: center;
+    // display: 'inline-block';
+    // min-height: 0;
+    // min-width: 0;
+}
+
+.todolist-addicon {
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+    // align-items: center;
+    // text-align: center;
+    // background-color: transparent;
+    // padding: 0;
+}
+
+.showItems {
+    margin-top: 20px;
+    width: 23vw;
+    // width: 50%;
+}
+
+.singleItems {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    // padding-top: 0px;
+    // padding-bottom: 0px;
+    // display: block;
+}
+
+.todolist-list {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.todolist-deletebutton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20%;
+    position: fixed;
+    margin-top: 15px;
+    // padding: 0;
+    // align-items: center;
+    // text-align: center;
+    // border-radius: 50%;
+}
+
+.todolist-deleteicon {
+    color: #9da4e0;
+    cursor: pointer;
+    vertical-align: middle;
+    // align-items: center;
+    // text-align: center;
+    // background-color: transparent;
+    // padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .todolist {
+        width: 100vw;
+    }
+
+    .showItems {
+        width: 90%;
+    }
+
+    .todolist-input {
+        width: 43vh;
+    }
+
+    .todolist-deletebutton {
+        margin-left: 75%;
+    }
 }
