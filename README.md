@@ -9,27 +9,27 @@ A clean and functional todo list application built with **React.js** and **SCSS*
 ## Features
 
 - Add new tasks
-- - Mark tasks as complete
-  - - Delete tasks
-    - - Clean, minimal UI with SCSS styling
-      - - Fully responsive design
-       
-        - ## Built With
-       
-        - - **React.js** - Component-based UI
-          - - **JavaScript (ES6+)**
-            - - **SCSS** - Structured CSS styling
-             
-              - ## Getting Started
-             
-              - ```bash
-                git clone https://github.com/tenthin/todolist.git
-                npm install
-                npm start
-                ```
+- Mark tasks as complete
+- Delete tasks
+- Clean, minimal UI with SCSS styling
+- Fully responsive design
 
-                The app will open at http://localhost:3000
+## Built With
 
-                ## Author
+- **React.js** - Component-based UI
+- **JavaScript (ES6+)**
+- **SCSS** - Structured CSS styling
 
-                **Tenzin Thinley** - [GitHub](https://github.com/tenthin) | [Portfolio](https://tenzin.dev/)
+## Getting Started
+
+```bash
+git clone https://github.com/tenthin/todolist.git
+npm install
+npm start
+```
+
+The app will open at http://localhost:3000
+
+## Author
+
+**Tenzin Thinley** - [GitHub](https://github.com/tenthin) | [Portfolio](https://tenzin.dev/)
