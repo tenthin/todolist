@@ -1,40 +1,35 @@
-# ✅ Todo List App
+# Todo List App
 
 A clean and functional todo list application built with **React.js** and **SCSS**. Add, complete, and delete tasks with a smooth, responsive UI.
 
-## 🔗 Live Demo
+## Live Demo
 
-👉 [View Live App](https://todolist-delete-function.netlify.app/)
+[View Live App](https://todolist-delete-function.netlify.app/)
 
-## ✨ Features
+## Features
 
-- ➕ Add new tasks
-- - ✔️ Mark tasks as complete
-  - - 🗑️ Delete tasks
-    - - 💾 Clean, minimal UI with SCSS styling
-      - - 📱 Fully responsive design
+- Add new tasks
+- - Mark tasks as complete
+  - - Delete tasks
+    - - Clean, minimal UI with SCSS styling
+      - - Fully responsive design
        
-        - ## 🛠️ Built With
+        - ## Built With
        
-        - - **React.js** — Component-based UI
+        - - **React.js** - Component-based UI
           - - **JavaScript (ES6+)**
-            - - **SCSS** — Structured CSS styling
+            - - **SCSS** - Structured CSS styling
              
-              - ## 🚀 Getting Started
+              - ## Getting Started
              
               - ```bash
-                # Clone the repository
                 git clone https://github.com/tenthin/todolist.git
-
-                # Install dependencies
                 npm install
-
-                # Start the development server
                 npm start
                 ```
 
-                The app will open at `http://localhost:3000`.
+                The app will open at http://localhost:3000
 
-                ## 👤 Author
+                ## Author
 
-                **Tenzin Thinley** — [GitHub](https://github.com/tenthin) | [Portfolio](https://tenzin.dev/)
+                **Tenzin Thinley** - [GitHub](https://github.com/tenthin) | [Portfolio](https://tenzin.dev/)
